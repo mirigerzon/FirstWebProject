@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+  <link rel="stylesheet" href="../css/contact.css">
+  <title>לחם בשר</title>
+</head>
+
+<body>
+  <header>
+    <iframe class="header" src="../html/header.html" frameborder="0"></iframe>
+  </header>
+
+  <section>
+    <div class="hours">
+      </br>
+      <h1>שעות פתיחה:</h1>
+      <p>
+        א-ה: 12:00-23:30 </br>
+        שישי: 12:00-שעתיים לפני שבת </br>
+        שבת: שעה אחרי צאת שבת-23:30 </br>
+        03-5252558</br>
+        יורדי הסירה 1 תל אביב</br>
+        </br>
+        </br>
+      </p>
+    </div>
+    <form class="details">
+      <h3>פרטים:</h3>
+      <input type="text" id="name" name="name" placeholder="שם:" required>
+      <input type="phone" id="phone" name="phone" placeholder="טלפון:" required>
+      <input type="email" id="email" name="email" placeholder="מייל:" required></br>
+      <textarea id="remarks" name="remarks" placeholder="הערות:"></textarea>
+      <h3>להזמנת שולחן:</h3>
+      <div class="order">
+      <label for="to-book-aF-table">כמות:</label></br>
+        <input type="number" id="to-book-aF-table" name="to-book-a-table" value="0" max="10" min="0"></br>
+        <label for="date">תאריך:</label></br>
+        <input type="date" id="date" name="date"></br>
+        <label for="hour">שעה:</label></br>
+        <input type="time" id="hour" name="hour"></br>
+      </div>
+      <h3> להזמנת אירוע:</h3>
+      <h3>דברו עם יוסי- 0583210118</h3>
+      <input type="submit" onclick="alert('תודה נפגש בקרוב :)')" value="שלח">
+      <input type="submit" value="נקה">
+    </form>
+  </section>
+
+  <table class="branches">
+    <tr>
+      <th>סניף: </th>
+      <th>טלפון: </th>
+    </tr>
+    <tr>
+      <td>ראשון לציון </th>
+      <td>03-9555511 </th>
+    </tr>
+    <tr>
+      <td>ירושלים </th>
+      <td>02-6244808</th>
+    </tr>
+    <tr>
+      <td>פתח תקווה </th>
+      <td>077-8035209</th>
+    </tr>
+  </table>
+
+  <footer>
+    <iframe class="footer" src="../html/footer.html" title="home-page" frameborder="0"></iframe>
+  </footer>
+
+</body>
+
+</html>
